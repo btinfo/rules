@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,umeng.com,REJECT
+
+# %baimiao.uzero.cn%
+URL-REGEX,^https?:\/\/baimiao\.uzero\.cn\/api\/advertising\/,REJECT

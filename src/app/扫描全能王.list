@@ -1,0 +1,6 @@
+DOMAIN,api.vungle.com,REJECT
+DOMAIN,firebaseinstallations.googleapis.com,REJECT
+DOMAIN,firebaselogging-pa.googleapis.com,REJECT
+DOMAIN,graph.facebook.com,REJECT
+DOMAIN,inapps.appsflyer.com,REJECT
+DOMAIN,vungle2-cdn-prod.s3.amazonaws.com,REJECT

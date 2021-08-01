@@ -1,0 +1,6 @@
+DOMAIN,lf3-cdn-tos.bytegoofy.com,REJECT
+DOMAIN,lf3-tt-cdn-tos.bytegecko.com,REJECT
+DOMAIN,lf6-tt-cdn-tos.bytegecko.com,REJECT
+DOMAIN,lf9-tt-cdn-tos.bytegecko.com,REJECT
+DOMAIN,lf9-webcast-cdn-tos.bytegecko.com,REJECT
+DOMAIN-SUFFIX,toutiaovod.com,DIRECT

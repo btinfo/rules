@@ -1,0 +1,12 @@
+DOMAIN,article.tiancaixing.com,REJECT
+DOMAIN,graph.facebook.com,REJECT
+DOMAIN,pinpai-portal-rs.eebbk.net,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN,shop-file.tiancaixing.com,REJECT
+DOMAIN,static.oper.tiancaixing.com,REJECT
+DOMAIN,watchda.eebbk.net,REJECT
+
+# %oper.tiancaixing.com,api.watch.okii.com%
+URL-REGEX,^https?:\/\/oper\.tiancaixing\.com\/api\/indexPush\/queryList?,REJECT
+URL-REGEX,^https?:\/\/oper\.tiancaixing\.com\/api\/indexBanner\/,REJECT
+URL-REGEX,^https?:\/\/api\.watch\.okii\.com\/openpush-service\/adPromotion\/,REJECT

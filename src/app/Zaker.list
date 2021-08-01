@@ -1,0 +1,13 @@
+DOMAIN,dxp.baidu.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN,hmma.baidu.com,REJECT
+DOMAIN,imgcache.qq.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN,q.qlogo.cn,REJECT
+DOMAIN-SUFFIX,qzs.qq.com,REJECT
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN,stat.tpns.tencent.com,REJECT
+DOMAIN,tnc3-aliec2.snssdk.com,REJECT
+IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+IP-CIDR,119.29.29.29/32,DIRECT,no-resolve

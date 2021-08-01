@@ -1,0 +1,24 @@
+DOMAIN,adashbc.ut.taobao.com,REJECT
+DOMAIN,adashxgc.ut.taobao.com,REJECT
+DOMAIN,a.miguvideo.com,REJECT
+DOMAIN,baichuan-sdk.alicdn.com,REJECT
+DOMAIN,chatpush.miguvideo.com,REJECT
+DOMAIN,ggc.cmvideo.cn,REJECT
+DOMAIN,ggic01.miguvideo.com,REJECT
+DOMAIN,ggicaqz.miguvideo.com,REJECT
+DOMAIN,ggmk.miguvideo.com,REJECT
+DOMAIN,ggv.cmvideo.cn,REJECT
+DOMAIN,ggx01.miguvideo.com,REJECT
+DOMAIN,res.wx.qq.com,REJECT
+DOMAIN,sdc3.10086.cn,REJECT
+DOMAIN,vt.ipinyou.com,REJECT
+DOMAIN,wtrace.cmgame.com,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+DOMAIN,cdn.neigou.com,REJECT
+DOMAIN,mgmall.migudm.cn,REJECT
+DOMAIN-SUFFIX,miguvideo.com,DIRECT
+
+# %api.weibo.com,app-sc.miguvideo.com%
+URL-REGEX,^https?:\/\/api\.weibo\.com\/oauth2\/getaid\.json\?,REJECT
+URL-REGEX,^https?:\/\/app-sc\.miguvideo\.com\/mgift\/,REJECT

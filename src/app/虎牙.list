@@ -1,0 +1,9 @@
+DOMAIN,kiwistatic.huya.com,REJECT
+DOMAIN,livewebbs2.msstatic.com,REJECT
+DOMAIN,s1-static.msstatic.com,REJECT
+DOMAIN-SUFFIX,msstatic.com,DIRECT
+
+# %cdnfile1.msstatic.com,business.msstatic.com%
+URL-REGEX,^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/,REJECT
+URL-REGEX,^https?:\/\/business\.msstatic\.com\/advertiser\/,REJECT
+# URL-REGEX,^https?:\/\/huyaimg\.msstatic\.com\/cdnimage\/gamebanner\/,REJECT

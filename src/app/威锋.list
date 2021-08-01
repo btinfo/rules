@@ -1,0 +1,14 @@
+DOMAIN,bds.snssdk.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,market.wsskj520.cn,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+DOMAIN,smr.snssdk.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+
+# %api.feng.com%
+# 49.234.36.200:9091
+URL-REGEX,^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen,REJECT
+URL-REGEX,^https?:\/\/49\.234\.36\.200:9091\/v1/advertisement\/advShow,REJECT

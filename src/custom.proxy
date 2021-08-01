@@ -1,0 +1,7 @@
+# GET FROM SHA-DB
+#DOMAIN,www.youtube.com
+#DOMAIN-SUFFIX,youtube.com
+DOMAIN,mozilla.cloudflare-dns.com
+DOMAIN,github.githubassets.com
+DOMAIN,collector.githubapp.com
+DOMAIN,mail.cock.li
