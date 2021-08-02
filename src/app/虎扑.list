@@ -13,4 +13,5 @@ DOMAIN,tbm.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 DOMAIN,toblog.ctobsnssdk.com,REJECT
 DOMAIN,tobapplog.ctobsnssdk.com,REJECT
+
 DOMAIN-SUFFIX,hupu.com,DIRECT

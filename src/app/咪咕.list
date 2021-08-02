@@ -17,8 +17,9 @@ DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN,cdn.neigou.com,REJECT
 DOMAIN,mgmall.migudm.cn,REJECT
-DOMAIN-SUFFIX,miguvideo.com,DIRECT
 
 # %api.weibo.com,app-sc.miguvideo.com%
 URL-REGEX,^https?:\/\/api\.weibo\.com\/oauth2\/getaid\.json\?,REJECT
 URL-REGEX,^https?:\/\/app-sc\.miguvideo\.com\/mgift\/,REJECT
+
+DOMAIN-SUFFIX,miguvideo.com,DIRECT

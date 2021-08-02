@@ -39,6 +39,7 @@ DOMAIN,voc.dongqiudi.com,REJECT
 DOMAIN,wanproxy.127.net,REJECT
 DOMAIN,wkdcm1.tingyun.com,REJECT
 DOMAIN,wkrd.tingyun.com,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
+
 DOMAIN-SUFFIX,dongqiudi.com,DIRECT
 DOMAIN-SUFFIX,qunliao.info,DIRECT
-DOMAIN-SUFFIX,rayjump.com,REJECT

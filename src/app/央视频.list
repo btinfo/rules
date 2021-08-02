@@ -13,7 +13,7 @@ DOMAIN,szmg.qq.com,REJECT
 DOMAIN,ten.sngapm.qq.com,REJECT
 DOMAIN,wimg.yangshipin.cn,REJECT
 DOMAIN,wuji.video.qq.com,REJECT
-
 URL-REGEX,^https?:\/\/\(null\)\/d\?dn=btrace,REJECT
+
 URL-REGEX,^https?:\/\/\(null\)\/d\?,DIRECT
 

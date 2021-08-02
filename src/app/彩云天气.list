@@ -4,4 +4,5 @@ DOMAIN,log.umsns.com,REJECT
 DOMAIN,tbm.snssdk.com,REJECT
 DOMAIN,toblog.ctobsnssdk.com,REJECT
 DOMAIN-SUFFIX,umeng.com,REJECT
+
 DOMAIN-SUFFIX,caiyunapp.com,DIRECT
