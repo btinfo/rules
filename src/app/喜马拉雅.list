@@ -4,7 +4,6 @@ DOMAIN,adse.wsa.ximalaya.com,REJECT
 DOMAIN,adse.ximalaya.com,REJECT
 DOMAIN,adtrack.e.kuaishou.com,REJECT
 DOMAIN,adx.maplehaze.cn,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
 DOMAIN,bds.snssdk.com,REJECT
 DOMAIN-SUFFIX,crashlytics.com,REJECT
 DOMAIN,dm.toutiao.com,REJECT
