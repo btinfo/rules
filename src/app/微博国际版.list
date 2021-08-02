@@ -1,6 +1,0 @@
-DOMAIN,adimg.uve.weibo.com,REJECT
-DOMAIN,idaa.shuzilm.cn,REJECT
-DOMAIN-SUFFIX,umeng.com,REJECT
-
-# %weibointl.api.weibo.cn% (wbint.js)
-URL-REGEX,^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads,REJECT-TINYGIF

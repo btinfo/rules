@@ -1,5 +1,0 @@
-DOMAIN,firebaselogging-pa.googleapis.com,REJECT
-DOMAIN-SUFFIX,crashlytics.com,REJECT
-
-DOMAIN,github.githubassets.com,PROXY
-DOMAIN,collector.githubapp.com,PROXY

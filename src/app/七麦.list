@@ -1,9 +1,0 @@
-DOMAIN,fusion.qq.com,REJECT
-DOMAIN,hm.baidu.com,REJECT
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,stats.jpush.cn,REJECT
-DOMAIN,stats.umsns.com,REJECT
-DOMAIN,zz.bdstatic.com,REJECT
-
-# api.qimai.cn
-# URL-REGEX,^https?:\/\/api\.qimai\.cn\/zhuanlan\/index\?,REJECT
