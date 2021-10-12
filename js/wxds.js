@@ -1,3 +1,7 @@
+/*
+^https:\/\/i\.weread\.qq\.com\/(pay\/balance|pay\/memberCardSummary)
+*/
+
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);

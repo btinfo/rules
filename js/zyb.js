@@ -1,3 +1,7 @@
+/*
+^https?:\/\/mall\.zuoyebang\.com\/mall\/goods\/audio\/voice\/list?audioId=\d+
+*/
+
 re('"freeTrail":\\w+@"status":\\d@"stopTime":""@','"freeTrail":1@"status":1@"stopTime":"9999999999"@')
 function re() {
  var body = $response.body;

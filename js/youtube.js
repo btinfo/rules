@@ -1,3 +1,7 @@
+/*
+^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A)
+*/
+
 if ($request.url.indexOf("&oad") != -1) {
   $done({ response: {body: ""} });
 } else if ($request.url.indexOf("&ctier") != -1) {

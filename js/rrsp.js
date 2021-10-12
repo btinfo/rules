@@ -1,3 +1,7 @@
+/*
+^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel
+*/
+
 const path1 = "channel";
 const path2 = "get_movie_info";
 

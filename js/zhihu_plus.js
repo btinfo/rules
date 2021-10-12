@@ -1,3 +1,13 @@
+/*
+知乎_处理用户信息 ^https?:\/\/api\.zhihu\.com\/people
+知乎_信息流去广告 ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)
+知乎_回答列表去广告 ^https?:\/\/api\.zhihu\.com\/v4\/questions
+知乎_预置关键词去广告 ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
+知乎_热搜去广告 ^https?:\/\/api\.zhihu\.com\/search\/top_search\/tabs\/hot\/items
+知乎_热榜去广告 ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
+知乎_评论去广告 ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
+*/
+
 const scriptName = "知乎助手";
 const blockedUsersKey = "zhihu_blocked_users";
 const currentUserInfoKey = "zhihu_current_userinfo";

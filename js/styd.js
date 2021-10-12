@@ -1,3 +1,7 @@
+/*
+^https?:\/\/app\.qdstt\.cn\/api\/apiClient\/index
+*/
+
 var body = $response.body;
 var obj = JSON.parse(body);
 obj.data["vvip"] = "1";
