@@ -19,3 +19,5 @@ obj = {
   "subscriptionButtonLabel": ""
  };
 $done({body: JSON.stringify(obj)});
+
+test
