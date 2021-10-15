@@ -11,9 +11,6 @@ const appUser = '/user-orchestration/userWeb/appUser/v100/getUserByToken'
 
 if (url.indexOf(vip) != -1) {
   obj.data.userStatus = 3;
-  if (obj.data.uid == 6018290) {
-    obj.data.username = '隔壁老王'
-  }
   obj.data.expire_time = 2012745599000
   obj.data.isTrial = false
   obj.data.userRoleCode = '11'
