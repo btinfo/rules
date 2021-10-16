@@ -4,11 +4,11 @@
 mitm= aiqicha.baidu.com
 */
 
-let obj = JSON.parse($response.body);
-    obj.data = {
-    "vip": 1,
-    "consume": 150,
-    "time": "2099-12-31",
-    "signInStaus": 0
-  }
-$done({body: JSON.stringify(obj)});
+var body = $response.body;
+var obj = JSON.parse(body);
+obj.data.vip = 1;
+obj.data.consume = 150;
+obj.data.time = 2029-12-31;
+obj.data.signInStaus = 0;
+body = JSON.stringify(obj);
+$done({body});
