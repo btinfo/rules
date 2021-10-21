@@ -10,13 +10,16 @@ http:\/\/rest\.zhibo\.tv\/room\/get\-pull\-stream\-info\-v430 url script-respons
 MITM = rest.zhibo.tv
 
 */
+var body = $response.body;
+var url = $request.url;
+var obj = JSON.parse(body);
 
-const path1 = "/room/get-pull-stream-info-v430";
+const vip = '/room/get-pull-stream-info-v430'
 
-let obj = JSON.parse($response.body);
-
-if ($request.url.indexOf(path1) != -1){
-	obj.data.anchor["userHas"] = "1";	
+if (url.indexOf(vip) != -1) {
+  obj.data.userHas = 1;
+  obj.data.onTrial = false
+  body = JSON.stringify(obj);
 }
 
-$done({body: JSON.stringify(obj)});
+$done({ body });
