@@ -19,6 +19,8 @@ const vip = '/room/get-pull-stream-info-v430'
 if (url.indexOf(vip) != -1) {
   obj.data.userHas = 1;
   obj.data.onTrial = false
+  obj.data.trialTime = 86400
+  obj.data.trialConst = 86400
   body = JSON.stringify(obj);
 }
 
