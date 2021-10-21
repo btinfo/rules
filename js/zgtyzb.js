@@ -1,27 +1,9 @@
-/*
-中国体育直播 unlock 
-QX:
+const path1 = "/room/get-room-info-v430";
 
-[rewrite_local]👇
+let obj = JSON.parse($response.body);
 
-http:\/\/rest\.zhibo\.tv\/room\/get\-pull\-stream\-info\-v430 url script-response-body zgtyzb.js
-
-
-MITM = rest.zhibo.tv
-
-*/
-var body = $response.body;
-var url = $request.url;
-var obj = JSON.parse(body);
-
-const vip = '/room/get-pull-stream-info-v430';
-
-if (url.indexOf(vip) != -1) {
-  obj.data.["userHas"] = "1";
-  obj.data.["onTrial"] = "false";
-  obj.data.["trialTime"] = "86400";
-  obj.data.["trialConst"] = "86400";
-  body = JSON.stringify(obj);
+if ($request.url.indexOf(path1) != -1){
+	obj.data.anchor["userHas"] = "1";	
 }
 
-$done({body});
+$done({body: JSON.stringify(obj)});
