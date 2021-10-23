@@ -1,7 +1,8 @@
-let body = $response.body.replace('"needAuth": true', '"needAuth": false');
+let body = $response.body.replace(/\"needAuth\":true/g, "\"needAuth\":false");
 var obj = JSON.parse(body);
 obj['rid'] = 'SUCCESS';
 obj['playCode'] = '100000';
+/*
 //obj['body']['auth']['logined'] = 'false';
 //obj['body']['auth']['authPassDefinitionMap']['3'] = 'release';
 obj['body']['urlInfo']['definitionRightSource'] = 'member';
@@ -69,6 +70,7 @@ obj['body']['mediaFiles'] = [
     "rateType": "4"
   }
 ];
+*/
 obj['body']['auth'] = {
   "member": {
     "triadiamondl": "2099-12-21 14:39:31"
