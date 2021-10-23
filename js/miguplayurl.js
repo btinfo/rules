@@ -7,13 +7,14 @@ obj['playCode'] = '100000';
 //obj['body']['auth']['authPassDefinitionMap']['3'] = 'release';
 obj['body']['urlInfo']['definitionRightSource'] = 'member';
 //obj['body']['urlInfo']['outPutFormat'] = 'm3u8';
-obj['body']['urlInfo']['rateDesc'] = '蓝光 1080P';
-obj['body']['urlInfo']['rateType'] = '4';
-obj['body']['urlInfo']['usageCode'] = '55';
-obj['body']['urlInfo']['hdEquityInfo']['toast'] = '尊贵的钻石会员，为您切换至蓝光 1080P 清晰度';
+//obj['body']['urlInfo']['rateDesc'] = '蓝光 1080P';
+//obj['body']['urlInfo']['rateType'] = '4';
+//obj['body']['urlInfo']['usageCode'] = '55';
+//obj['body']['urlInfo']['hdEquityInfo']['toast'] = '尊贵的钻石会员，为您切换至蓝光 1080P 清晰度';
 obj['body']['urlInfo']['hdEquityInfo']['source'] = 'member';
-obj['body']['urlInfo']['hdEquityInfo']['rateDesc'] = '蓝光 1080P';
-obj['body']['urlInfo']['hdEquityInfo']['rateType'] = '4';
+//obj['body']['urlInfo']['hdEquityInfo']['rateDesc'] = '蓝光 1080P';
+//obj['body']['urlInfo']['hdEquityInfo']['rateType'] = '4';
+/*
 obj['body']['mediaFiles'] = [
   {
     "hdCodeType": null,
@@ -70,7 +71,7 @@ obj['body']['mediaFiles'] = [
     "rateType": "4"
   }
 ];
-
+*/
 obj['body']['auth'] = {
   "member": {
     "triadiamondl": "2099-12-21 14:39:31"
