@@ -1,4 +1,5 @@
 /*
+网易蜗牛阅读
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json
 */
 

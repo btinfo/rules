@@ -1,4 +1,5 @@
 /*
+微信读书
 ^https:\/\/i\.weread\.qq\.com\/(pay\/balance|pay\/memberCardSummary)
 */
 

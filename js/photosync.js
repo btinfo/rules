@@ -1,4 +1,5 @@
 /*
+PhotoSync
 ^https?:\/\/api\.revenuecat\.com\/v1\/
 */
 

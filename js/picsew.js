@@ -1,4 +1,5 @@
 /*
+Picsew
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt
 */
 

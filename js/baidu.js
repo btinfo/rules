@@ -1,6 +1,8 @@
 /*
+百度防跳转
 ^https:\/\/boxer\.baidu\.com\/scheme\?scheme
 */
+
 const method = $request.method;
 const url = $request.url;
 const status = $response.status;

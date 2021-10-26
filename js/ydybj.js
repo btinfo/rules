@@ -1,7 +1,6 @@
 /*
-有道云笔记VIP功能
-https://note.youdao.com/yws/(mapi/payment|api/self)
-hostname: note.youdao.com
+有道云笔记
+^https:\/\/note\.youdao\.com\/yws\/(mapi\/payment|api\/self)
 */
 
 const path1 = "/api/self";
@@ -14,6 +13,7 @@ obj.vip = true,
 obj.properties.FEED_BACK_ID = 1,
 obj.properties.isvip = true
 }
+
 if ($request.url.indexOf(path2) != -1){
   obj.service = 1,
   obj.payYear = true,
