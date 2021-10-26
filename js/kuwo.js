@@ -1,7 +1,6 @@
 /*
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
 */
-
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);

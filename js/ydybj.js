@@ -4,9 +4,8 @@ https://note.youdao.com/yws/(mapi/payment|api/self)
 hostname: note.youdao.com
 */
 
-
-  const path1 = "/api/self";
-  const path2 = "/mapi/payment";
+const path1 = "/api/self";
+const path2 = "/mapi/payment";
 
 let obj = JSON.parse($response.body);
 
