@@ -1,5 +1,5 @@
 /*
-WPS Office 解锁部分功能
+WPS Office 1
 ^https?:\/\/account\.wps\.cn\/api\/users
 hostname = account.wps.cn
 */
