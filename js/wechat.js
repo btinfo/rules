@@ -1,7 +1,5 @@
-/*
-微信公众号
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
-*/
+// 微信公众号
+// ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
 
 var body = $response.body;
 var obj = JSON.parse(body);

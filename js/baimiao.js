@@ -1,7 +1,5 @@
-/*
-白描
-^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser
-*/
+// 白描
+// ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser
 
 let obj = JSON.parse($response.body);
 obj.value.vip = {
@@ -38,4 +36,3 @@ obj.value.vip = {
   }
 };  
 $done({body: JSON.stringify(obj)});
-

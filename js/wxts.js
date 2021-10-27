@@ -1,7 +1,5 @@
-/*
-微信听书
-^https?:\/\/i\.at\.qq\.com\/pay\/memberinfo
-*/
+// 微信听书
+// ^https?:\/\/i\.at\.qq\.com\/pay\/memberinfo
 
 let obj = JSON.parse($response.body);
 obj = {
@@ -20,4 +18,3 @@ obj = {
   "subscriptionButtonLabel": ""
  };
 $done({body: JSON.stringify(obj)});
-

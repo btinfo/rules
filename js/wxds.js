@@ -1,7 +1,5 @@
-/*
-微信读书
-^https:\/\/i\.weread\.qq\.com\/(pay\/balance|pay\/memberCardSummary)
-*/
+// 微信读书
+// ^https:\/\/i\.weread\.qq\.com\/(pay\/balance|pay\/memberCardSummary)
 
 var body = $response.body;
 var url = $request.url;
@@ -20,4 +18,3 @@ if (url.indexOf(memberCard) != -1) {
   body = JSON.stringify(obj);
 }
 $done({body});
-

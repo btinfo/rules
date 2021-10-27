@@ -1,7 +1,5 @@
-/*
-网易蜗牛阅读
-^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json
-*/
+// 网易蜗牛阅读
+// ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json
 
 var body = $response.body;
 var obj = JSON.parse(body);

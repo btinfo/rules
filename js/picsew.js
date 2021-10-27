@@ -1,7 +1,5 @@
-/*
-Picsew
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt
-*/
+// Picsew
+// ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt
 
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
