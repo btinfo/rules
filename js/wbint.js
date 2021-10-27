@@ -1,6 +1,3 @@
-// 微博国际版
-// ^https?:\/\/api\.weibo\.cn\/2\/(statuses|groups)\/(unread_hot_|friends_)?timeline
-
 let body = JSON.parse($response.body);
 if (body["ad"]) body["ad"] = [];
 if (body["advertises"]) body["advertises"] = [];

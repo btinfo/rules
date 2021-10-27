@@ -1,6 +1,3 @@
-// 有道云笔记
-// ^https:\/\/note\.youdao\.com\/yws\/(mapi\/payment|api\/self)
-
 const path1 = "/api/self";
 const path2 = "/mapi/payment";
 

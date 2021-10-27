@@ -1,6 +1,3 @@
-// 彩云天气
-// ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user)
-
 const SCRIPT_NAME = '彩云天气';
 const USER_REGEX = /https?:\/\/biz\.caiyunapp\.com\/v2\/user/;
 const RIGHTS_REGEX = /https?:\/\/biz\.caiyunapp\.com\/membership_rights/;

@@ -1,6 +1,3 @@
-// 微信听书
-// ^https?:\/\/i\.at\.qq\.com\/pay\/memberinfo
-
 let obj = JSON.parse($response.body);
 obj = {
   "isMember": 1,

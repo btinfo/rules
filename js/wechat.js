@@ -1,6 +1,3 @@
-// 微信公众号
-// ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
-
 var body = $response.body;
 var obj = JSON.parse(body);
 obj.advertisement_num = 0;
