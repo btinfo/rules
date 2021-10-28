@@ -1,4 +1,4 @@
-// https://api.linfeicloud.com/account/getaccount
+// https://api.linfeicloud.com/(account/getaccount|File/GetFileList)
 
 var body = $response.body;
 var obj = JSON.parse(body);
