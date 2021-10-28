@@ -49,6 +49,13 @@ obj.data.android_ad_513 = [];
 body = JSON.stringify(obj);
 $done({body});
 */
-var body = $response.body.replace('var isPay = document', 'var isPay = 1;  #').replace('var articleProperties', 'var articleProperties2').replace(/nickname\":\".*?\"/g, 'nickname\":\"已解锁\"').replace('isFree\":\\d', 'isFree\":0').replace('aType\":\\d', 'aType\":0').replace('feeType\":\\d', 'feeType\":0')
-
+var body = $response.body
+  .replace('var isPay = document', 'var isPay = 1;  #')
+  .replace('var articleProperties', 'var articleProperties2')
+  .replace(/nickname\":\".*?\"/g, 'nickname\":\"已解锁\"')
+  .replace('isFree\":\\d', 'isFree\":0')
+  .replace('aType\":\\d', 'aType\":0')
+  .replace('feeType\":\\d', 'feeType\":0')
+  .replace('power\":\".*?\"', 'power\":\"\"')
+  .replace('product_code\":[.*?]', 'product_code\":[]')
 $done({ body });
