@@ -1,6 +1,6 @@
-let body = JSON.parse($response.body)
-if (body.data.psnl_vip_property) {
-    body.data.psnl_vip_property = {"renew_method": "appstore",
+let obj = JSON.parse($response.body);
+obj.data.psnl_vip_property = {
+      "renew_method": "appstore",
       "initial_tm": "1614867690",
       "svip": 1,
       "auto_renewal": true,
@@ -20,8 +20,6 @@ if (body.data.psnl_vip_property) {
       "expiry": 9915130487,
       "grade": 2,
       "last_payment_method": "appstore",
-      "product_id": "com.intsig.camscanner.premiums.oneyear.autorenewable.svip.low"}
-    $done({body:JSON.stringify(body)})
-} else {
-    $done({})
-}
+      "product_id": "com.intsig.camscanner.premiums.oneyear.autorenewable.svip.low"
+};
+$done({body: JSON.stringify(obj)});
