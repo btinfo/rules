@@ -23,7 +23,8 @@ var obj = JSON.parse(body);
   .replace(/\"isFree\":.*?,/g, "\"isFree\":1,")
   .replace(/\"aType\":.*?,/g, "\"aType\":2,")
   .replace(/\"power\":\".*?\"/g, "\"power\":\"\"")
-  .replace(/\"product_code\":\".*?\"/g, "\"product_code\":[]");
+  .replace(/\"product_code\":[\".*?\"]/g, "\"product_code\":[]");
+  .replace(/\"fee_content_id\":[\".*?\"]/g, "\"fee_content_id\":[]");
 obj.data.ios_ad_513 = [];
 obj.data.android_ad_513 = [];
 body = JSON.stringify(obj);
