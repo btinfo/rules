@@ -1,3 +1,5 @@
+// ^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser
+
 let obj = JSON.parse($response.body);
 obj.value.vip = {
   "id":999999,

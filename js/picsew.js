@@ -1,3 +1,5 @@
+// ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 if (bundle_id == "com.sugarmo.ScrollClip") {

@@ -1,3 +1,5 @@
+// ^https?:\/\/api\.revenuecat\.com\/v1\/
+
 let obj = JSON.parse($response.body);
 obj.current_offering_id = "premium_yearly_cross";
 obj.subscriber.entitlements = {
