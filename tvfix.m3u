@@ -97,7 +97,7 @@ http://iptv.tvfix.org/hls/hnhd.m3u8
 http://iptv.tvfix.org/hls/gxhd.m3u8
 #EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
 http://iptv.tvfix.org/hls/jlhd.m3u8
-#EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/中国教育1台.png" group-title="数字付费",中国教育电视台1
+#EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B21%E5%8F%B0.png" group-title="数字付费",中国教育电视台1
 http://iptv.tvfix.org/hls/cetv1hd.m3u8
 #EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视",海南卫视
 http://iptv.tvfix.org/hls/lyhd.m3u8
@@ -214,19 +214,19 @@ http://iptv.tvfix.org/hls/tvbsnews.m3u8
 http://iptv.tvfix.org/hls/ztxw.m3u8
 #EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台湾",东森新闻
 http://iptv.tvfix.org/hls/dsxw.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",NHK综合
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="日本",NHK综合
 http://iptv.tvfix.org/hls/nhkg.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",NHK综合(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="日本",NHK综合(第2声道)
 http://iptv.tvfix.org/hls/nhkg2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",NHK教育
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="日本",NHK教育
 http://iptv.tvfix.org/hls/nhke.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",NHK教育(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="日本",NHK教育(第2声道)
 http://iptv.tvfix.org/hls/nhke2.m3u8
-#EXTINF:-1 tvg-id="7110" tvg-name="NHKWorldPremium" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/nhkworldp.png" group-title="测试频道",NHK WORLD Premium
+#EXTINF:-1 tvg-id="7110" tvg-name="NHKWorldPremium" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/nhkworldp.png" group-title="日本",NHK WORLD Premium
 http://iptv.tvfix.org/hls/nhkworldpremium.m3u8
-#EXTINF:-1 tvg-id="331" tvg-name="NHKWorld" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="测试频道",NHK WORLD
+#EXTINF:-1 tvg-id="331" tvg-name="NHKWorld" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/NHKWorld.png" group-title="日本",NHK WORLD
 http://iptv.tvfix.org/hls/nhkworld.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",NHK WORLD(中文字幕)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="日本",NHK WORLD(中文字幕)
 http://iptv.tvfix.org/hls/nhkworldzh.m3u8
 #EXTINF:-1 tvg-id="6159" tvg-name="tvN" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/tvN.png" group-title="韩国",tvN
 http://iptv.tvfix.org/hls/tvn.m3u8
