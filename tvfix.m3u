@@ -236,21 +236,21 @@ http://iptv.tvfix.org/hls/earth.m3u8
 http://iptv.tvfix.org/hls/mydy.m3u8
 #EXTINF:-1 tvg-id="145" tvg-name="美亚电影台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/meiyamovie.png" group-title="香港",美亚电影台(普通话)
 http://iptv.tvfix.org/hls/mydy2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",天映经典(粤语)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港",天映经典(粤语)
 http://iptv.tvfix.org/hls/tyjd.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",天映经典(普通话)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="香港",天映经典(普通话)
 http://iptv.tvfix.org/hls/tyjd2.m3u8
 #EXTINF:-1 tvg-id="7238" tvg-name="Animax" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ANIMAX.png" group-title="海外",Animax
 http://iptv.tvfix.org/hls/animax.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Animax(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ANIMAX.png" group-title="海外",Animax(第2声道)
 http://iptv.tvfix.org/hls/animax2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Hands Up Channel
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Hands Up Channel
 http://iptv.tvfix.org/hls/kid.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Hands Up Channel(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Hands Up Channel(第2声道)
 http://iptv.tvfix.org/hls/kid2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Thrill
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Thrill
 http://iptv.tvfix.org/hls/thrill.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Thrill(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Thrill(第2声道)
 http://iptv.tvfix.org/hls/thrill2.m3u8
 #EXTINF:-1 tvg-id="129" tvg-name="TVB经典台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBclassic.png" group-title="香港",TVB经典台
 http://iptv.tvfix.org/hls/tvbjd.m3u8
@@ -278,15 +278,15 @@ http://iptv.tvfix.org/hls/discovery.m3u8
 http://iptv.tvfix.org/hls/animal.m3u8
 #EXTINF:-1 tvg-id="6039" tvg-name="动物星球" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/AnimalPlanet.png" group-title="测试频道",动物星球(第2声道)
 http://iptv.tvfix.org/hls/animal2.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Love Nature 4K
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Love Nature 4K
 http://iptv.tvfix.org/hls/lovenature4k.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Love Nature 4K(第2声道)
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Love Nature 4K(第2声道)
 http://iptv.tvfix.org/hls/lovenature4k2.m3u8
 #EXTINF:-1 tvg-id="691" tvg-name="国家地理频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/natgeo.png" group-title="测试频道",国家地理
 http://iptv.tvfix.org/hls/natlgeo.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Channel V
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Channel V
 http://iptv.tvfix.org/hls/channelv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",星空卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",星空卫视
 http://iptv.tvfix.org/hls/startv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="测试频道",Star Sports
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="海外",Star Sports
 http://iptv.tvfix.org/hls/starsports.m3u8
