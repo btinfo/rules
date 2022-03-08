@@ -40,10 +40,12 @@ http://iptv.tvfix.org/hls/cctv16hd.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV17 农业
 http://iptv.tvfix.org/hls/cctv17hd.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",凤凰资讯
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="香港",凤凰资讯
 http://iptv.tvfix.org/hls/fhzx.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",凤凰中文
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="香港",凤凰中文
 http://iptv.tvfix.org/hls/fhzw.m3u8
+#EXTINF:-1 tvg-logo="" group-title="香港",凤凰电影
+http://iptv.tvfix.org/hls/fhdy.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
 http://iptv.tvfix.org/hls/brtv1hd.m3u8
@@ -93,6 +95,23 @@ http://iptv.tvfix.org/hls/jlhd.m3u8
 http://iptv.tvfix.org/hls/lyhd.m3u8
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视",贵州卫视
 http://iptv.tvfix.org/hls/gzhd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/wuxingtiyu.png" group-title="体育",五星体育
+http://iptv.tvfix.org/hls/wxtyhd.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinbaotiyu.jpg" group-title="体育",劲爆体育
+http://iptv.tvfix.org/hls/jbtyhd.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xinshijue.png" group-title="体育",新视觉
+http://iptv.tvfix.org/hls/xsjhd.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="体育",魅力足球
+http://iptv.tvfix.org/hls/mlzqhd.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="CHC",CHC高清电影
+http://iptv.tvfix.org/hls/chchd.m3u8
+#EXTINF:-1tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="CHC",CHC家庭电影
+http://iptv.tvfix.org/hls/chctv.m3u8
+#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="CHC",CHC动作电影
+http://iptv.tvfix.org/hls/chcatv.m3u8
+
 #EXTINF:-1 group-title="地方频道",北京文艺高清
 http://iptv.tvfix.org/hls/brtv2hd.m3u8
 #EXTINF:-1 group-title="地方频道",北京科教高清
@@ -121,28 +140,16 @@ http://iptv.tvfix.org/hls/shdspdhd.m3u8
 http://iptv.tvfix.org/hls/shwypdhd.m3u8
 #EXTINF:-1 group-title="特色频道",清华电视台
 http://iptv.tvfix.org/hls/tsinghuatv.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/wuxingtiyu.png" group-title="体育",五星体育
-http://iptv.tvfix.org/hls/wxtyhd.m3u8
+
 #EXTINF:-1 group-title="特色频道",极速汽车高清
 http://iptv.tvfix.org/hls/jsqchd.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinbaotiyu.jpg" group-title="体育",劲爆体育
-http://iptv.tvfix.org/hls/jbtyhd.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xinshijue.png" group-title="体育",新视觉
-http://iptv.tvfix.org/hls/xsjhd.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/meilizuqiu.png" group-title="体育",魅力足球
-http://iptv.tvfix.org/hls/mlzqhd.m3u8
 #EXTINF:-1 group-title="特色频道",游戏风云高清
 http://iptv.tvfix.org/hls/yxfyhd.m3u8
 #EXTINF:-1 group-title="特色频道",全纪实高清
 http://iptv.tvfix.org/hls/qjshd.m3u8
 #EXTINF:-1 group-title="特色频道",纪实人文高清
 http://iptv.tvfix.org/hls/docuchina.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="CHC",CHC高清电影
-http://iptv.tvfix.org/hls/chchd.m3u8
-#EXTINF:-1tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="CHC",CHC家庭电影
-http://iptv.tvfix.org/hls/chctv.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="CHC",CHC动作电影
-http://iptv.tvfix.org/hls/chcatv.m3u8
+
 #EXTINF:-1 group-title="特色频道",哈哈炫动高清
 http://iptv.tvfix.org/hls/hhxdhd.m3u8
 #EXTINF:-1 group-title="特色频道",金鹰卡通
@@ -254,8 +261,6 @@ http://iptv.tvfix.org/hls/tvbkf.m3u8
 #EXTINF:-1 group-title="测试频道",TVB功夫(普通话)
 http://iptv.tvfix.org/hls/tvbkf2.m3u8
 
-#EXTINF:-1 group-title="测试频道",凤凰电影
-http://iptv.tvfix.org/hls/fhdy.m3u8
 #EXTINF:-1 group-title="测试频道",Discovery
 http://iptv.tvfix.org/hls/discovery.m3u8
 #EXTINF:-1 group-title="测试频道",动物星球
